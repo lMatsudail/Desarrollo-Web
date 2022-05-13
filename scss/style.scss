@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: no;
+}
+/*-------ESTILOS GENERALES-------*/
+body {
+    background: url(/Multimedia/fondoparaelblanco.png);    
+}
+footer{
+    background-color: #662483 ;
+}
+h1{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Gotham'), url('https://fonts.cdnfonts.com/s/14898/GothamMedium.woff') format('woff'); 
+}
+h2,
+h3,
+h4,
+h5,
+p,
+a{
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Myriad Pro'), url('https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff') format('woff');
+}
+/* Navbar */
+.bg-light{
+    background-color: rbga(255,255,255,0.1) !important;
+}
+/* Header */
+.img_logo{
+    width: 90%;
+    padding-top: 10px; 
+}
+.img_nombre{
+    width: 90%; 
+    margin: 0 auto;  
+}
+.img_letras{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+/* footer */
+footer{
+    padding-top: 40px;
+    width: 100%;   
+}
+footer p,
+h3 {
+    color: white;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+}
+.test{
+    display: flex;
+    column-gap: 15px;    
+}
+.test p{    
+    font-weight:700;
+    margin: auto 0;
+}
+.test h3{
+    font-weight: 700;
+}
+.redes {
+    text-align: center;  
+}
+.footer_mail{
+    display:flex;
+    column-gap: 15px;
+}
+.footer_mail p{
+    font-weight:700;
+    margin: auto 0;
+}
+.footer_email h3{
+    font-weight: 700;
+}
+.footer_dir h3{
+    font-weight: 700;
+    text-align: center;
+}
+@media (min-width:768px) {
+    .footer_dir h3{
+        font-size: 40px;
+    }
+    .footer_email h3{
+        font-size: 60px;
+    }
+    .footer_mail p{
+        font-size: 25px;
+    }
+    .test h3{
+        font-size: 70px;
+    }
+    .test p{
+        font-size: 25px;
+    }
+    .footer_mail{
+        margin-left: 300px;
+    }
+    .redes_img{
+        margin-left: 40px;
+    }
+    .test{
+        margin-left: 100px;
+    }          
+}
