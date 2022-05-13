@@ -2,21 +2,17 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: no;
+  box-sizing: none;
 }
 
 body {
   background: url(/Multimedia/fondoparaelblanco.png);
 }
 
-footer {
-  background-color: #662483;
-}
-
 h1 {
   font-family: 'Gotham';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   src: local("Gotham"), url("https://fonts.cdnfonts.com/s/14898/GothamMedium.woff") format("woff");
 }
 
@@ -32,31 +28,110 @@ a {
   src: local("Myriad Pro"), url("https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff") format("woff");
 }
 
+.centrar {
+  text-align: center;
+}
+
+.imagenV {
+  width: 100%;
+  height: 100%;
+}
+
+.imagenG {
+  width: 100%;
+  height: 100%;
+}
+
+.imagenL {
+  width: 50%;
+  height: 50%;
+}
+
+.imagenP {
+  width: 50%;
+  height: 50%;
+}
+
+.titulos {
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
 /* Navbar */
 .bg-light {
   background-color: rbga(255, 255, 255, 0.1) !important;
 }
 
 footer {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  padding-top: 2rem;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #662483;
   color: white;
 }
 
+.footer_container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-1-3 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.grid-1-3 p,
+.grid-1-3 h3 {
+  text-align: left;
+}
+
 footer img {
-  width: 8%;
+  width: 50%;
+  margin-left: 0;
 }
 
-.row_display {
-  display: flex;
-  justify-content: center;
-  column-gap: 1rem;
+.footer_text,
+footer h3 {
+  text-align: center;
 }
 
-.row_display p {
-  margin-top: 4rem;
+.footer_dir h3 {
+  font-size: 1rem;
+}
+
+.footer_section {
+  margin-bottom: 1rem;
+}
+
+.email {
+  margin-left: 0.1rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_container {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .tablet-responsive {
+    grid-column: 1/3;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .footer_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tablet-responsive {
+    grid-column: auto;
+  }
+  .footer_dir {
+    margin-top: 1rem;
+  }
 }
 
 /* Header */

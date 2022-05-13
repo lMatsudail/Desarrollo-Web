@@ -2,23 +2,17 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: no;
+    box-sizing: none;
   }
   body {
     background: url(/Multimedia/fondoparaelblanco.png);
   }
-  
-  footer {
-    background-color: #662483;
-  }
-  
   h1 {
     font-family: 'Gotham';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     src: local("Gotham"), url("https://fonts.cdnfonts.com/s/14898/GothamMedium.woff") format("woff");
   }
-  
   h2,
   h3,
   h4,
@@ -29,4 +23,30 @@
     font-style: normal;
     font-weight: 400;
     src: local("Myriad Pro"), url("https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff") format("woff");
+  }
+  .centrar{
+    text-align: center;
+  }
+  .imagenV{
+    width: 100%;
+    height: 100%;
+  }
+  .imagenG{
+    width: 100%;
+    height: 100%;
+  }
+  .imagenL{
+    width: 50%;
+    height: 50%;
+  }
+  .imagenP{
+    width: 50%;
+    height: 50%;
+  }
+  .titulos{
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+  }
+  .row{
+    --bs-gutter-x: 0 !important;
   }
