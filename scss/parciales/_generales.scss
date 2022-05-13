@@ -1,0 +1,32 @@
+/*-------ESTILOS GENERALES-------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: no;
+  }
+  body {
+    background: url(/Multimedia/fondoparaelblanco.png);
+  }
+  
+  footer {
+    background-color: #662483;
+  }
+  
+  h1 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    src: local("Gotham"), url("https://fonts.cdnfonts.com/s/14898/GothamMedium.woff") format("woff");
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  a {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Myriad Pro"), url("https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff") format("woff");
+  }
