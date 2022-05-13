@@ -1,131 +1,78 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: none;
-}
 /*-------ESTILOS GENERALES-------*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: no;
+}
+
 body {
-    background: url(/Multimedia/fondo\ para\ el\ blanco.png);
+  background: url(/Multimedia/fondoparaelblanco.png);
 }
-footer{
-    background-color: #662483 ;
+
+footer {
+  background-color: #662483;
 }
-h1{
-    font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Gotham'), url('https://fonts.cdnfonts.com/s/14898/GothamMedium.woff') format('woff'); 
+
+h1 {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Gotham"), url("https://fonts.cdnfonts.com/s/14898/GothamMedium.woff") format("woff");
 }
+
 h2,
 h3,
 h4,
 h5,
 p,
-a{
-    font-family: 'Myriad Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Myriad Pro'), url('https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff') format('woff');
+a {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Myriad Pro"), url("https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff") format("woff");
 }
+
 /* Navbar */
-.bg-light{
-    background-color: rbga(255,255,255,0.1) !important;
+.bg-light {
+  background-color: rbga(255, 255, 255, 0.1) !important;
 }
+
+footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  color: white;
+}
+
+footer img {
+  width: 8%;
+}
+
+.row_display {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.row_display p {
+  margin-top: 4rem;
+}
+
 /* Header */
-.img_logo{
-    width: 90%;
-    padding-top: 10px; 
-}
-.img_nombre{
-    width: 90%; 
-    margin: 0 auto;  
-}
-.img_letras{
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 60px;
-}
-/* footer */
-footer{
-    padding-top: 40px;
-    width: 100%;   
-}
-footer p,
-h3 {
-    color: white;
-}
-footer img{
-    width: 40px;
-    height: 40px;
-    margin: auto 0;
-}
-.test{
-    display: flex;
-    column-gap: 15px;
-    margin: auto auto;    
-}
-.test p{    
-    font-weight:700;
-    margin: auto 0;
-}
-.test h3{
-    font-weight: 700;
-}
-.redes {
-    text-align: center;  
-}
-.footer_mail{
-    display:flex;
-    column-gap: 15px;
-    margin: auto auto;
-}
-.footer_mail p{
-    font-weight:700;
-    margin: auto auto;
-}
-.footer_email h3{
-    font-weight: 700;
-    margin: auto auto;
-}
-.footer_dir h3{
-    font-weight: 700;
-    text-align: center;
-    margin: auto auto;
-}
-@media (min-width:768px) {
-    .footer_dir h3{
-        font-size: 40px;
-    }
-    .footer_email h3{
-        font-size: 60px;
-    }
-    .footer_mail p{
-        font-size: 25px;
-    }
-    .test h3{
-        font-size: 70px;
-    }
-    .test p{
-        font-size: 25px;
-    }
-    .footer_mail{
-        margin-left: 300px;
-    }
-    .redes_img{
-        margin-left: 40px;
-    }
-    .test{
-        margin-left: 100px;
-    }       
+.img_logo {
+  width: 90%;
+  padding-top: 10px;
 }
 
+.img_nombre {
+  width: 90%;
+  margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
+.img_letras {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+/*# sourceMappingURL=style.css.map */
