@@ -1,0 +1,8 @@
+SEO CamiVet
+1. se corrige codigo ya que habian muchos </div> que no pertenecian a ningun lado
+2. se confirma peso de imagenes ya que se subieron optimizadas para SEO
+3. se confirma responsive "mobilie first"
+4. se revisa codigo para editar y/o borrar errores y se agrega SASSII
+5. Se agrega keywords y definición.
+6. se agrega favicon de CamiVet
+7. Se cambia "tittle" en su definicion para cada page
