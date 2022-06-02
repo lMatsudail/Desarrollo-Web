@@ -7,7 +7,11 @@
   body {
     background: url(/Multimedia/fondoparaelblanco.png);
   }
+  @mixin centrar{
+    text-align: center;
+  }
   h1 {
+    @include centrar;
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 700;
@@ -23,9 +27,6 @@
     font-style: normal;
     font-weight: 400;
     src: local("Myriad Pro"), url("https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff") format("woff");
-  }
-  .centrar{
-    text-align: center;
   }
   .imagenV{
     width: 100%;

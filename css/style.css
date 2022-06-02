@@ -10,6 +10,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-family: 'Gotham';
   font-style: normal;
   font-weight: 700;
@@ -26,10 +27,6 @@ a {
   font-style: normal;
   font-weight: 400;
   src: local("Myriad Pro"), url("https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff") format("woff");
-}
-
-.centrar {
-  text-align: center;
 }
 
 .imagenV {
@@ -159,17 +156,17 @@ footer h3 {
 }
 
 /* Header */
-.img_logo {
+.img__logo {
   width: 90%;
   padding-top: 10px;
 }
 
-.img_nombre {
+.img__nombre {
   width: 90%;
   margin: 0 auto;
 }
 
-.img_letras {
+.img__letras {
   width: 60%;
   margin: 0 auto;
   margin-top: 60px;
