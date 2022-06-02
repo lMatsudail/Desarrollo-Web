@@ -1,7 +1,10 @@
+@mixin width90 {
+    width: 90%;
+}
 .products__container{
     display: grid;
     grid-template-columns: 1fr;
-    width: 90%;
+    @include width90;
     margin: 0 auto;
 }
 .product__card{
@@ -9,7 +12,7 @@
     background-color: rgba(166, 163, 168, 0.575);
     margin: 0.5rem auto;
     transition: all 600ms ease;
-    width: 90%;
+    @include width90;
 }
 .product__card--body{
     background-color: rgb(147, 102, 177);
